@@ -1,8 +1,4 @@
-class Todo {
-  constructor(text) {
-    this.text = text;
-  }
-}
+import "./style.css";
 
 class UI {
   static displayTodos() {
