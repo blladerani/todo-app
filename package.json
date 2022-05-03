@@ -1,0 +1,25 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blladerani/todo-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blladerani/todo-app/issues"
+  },
+  "homepage": "https://github.com/blladerani/todo-app#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

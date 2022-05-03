@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#header {
+  max-width: 800px;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+}
+
+#todo-form {
+  display: flex;
+  gap: 30px;
+}
+
+#todo-form * {
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#todo-input {
+  flex: 1;
+  background: black;
+  color: white;
+}
+
+#todos {
+  max-width: 800px;
+  padding: 15px 30px;
+  margin: 0 auto;
+}
+
+.todo {
+  width: 100%;
+  border-radius: 50px;
+  background: black;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 15px;
+  display: flex;
+}
+
+.todo-text {
+  color: white;
+  flex: 1;
+}
+
+.remove {
+  color: red;
+}
+
+.edit {
+  color: sandybrown;
+}
