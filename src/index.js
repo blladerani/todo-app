@@ -2,6 +2,7 @@ import "./style.css";
 
 class UI {
   static displayTodos() {
+    document.querySelector("#todo-input").value = "";
     const todos = document.querySelector("#todos");
     todos.innerHTML = "";
     const todoitems = Store.getTodos();
